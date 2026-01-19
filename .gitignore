@@ -1,0 +1,58 @@
+# Build output
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+packages/
+
+# ASP.NET Core / configuration
+appsettings.*.json
+secrets.json
+
+# Entity Framework
+Migrations/
+
+# Certificates and keys
+*.pfx
+*.pem
+*.key
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Node / frontend
+node_modules/
+npm-debug.log
+
+# Other
+*.orig
+
+# Ignore IDE and local environment files
+*.env
+.env.*
+
+# Persist for generated files
+generated/
